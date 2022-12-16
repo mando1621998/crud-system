@@ -86,3 +86,20 @@ table th,table td {
     padding: 5px;
 }
 /* End Output Section */
+@media(max-width: 768px) {
+    .crud {
+        width: 100%;
+        margin: auto;
+    }
+}
+@media(max-width: 653px) {
+    table {
+        text-align: center;
+        margin: 10px 0;
+        font-size: 12px;
+    }
+    .crud {
+        width: 141%;
+        margin: auto;
+    }
+}
