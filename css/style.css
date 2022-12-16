@@ -1,0 +1,88 @@
+/* Global */
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: system-ui;
+    background-color: #008a77;
+}
+/* Global */
+/* Start Head */
+.crud {
+    width: 80%;
+    margin: auto;
+}
+.head {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+/* End Head */
+/* Start Input Section */
+input {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: #111;
+    margin: 4px 0;
+    border-radius: 5px;
+    padding: 4px;
+    color: #fff;
+}
+input:focus{
+    background-color: #000;
+    transform: scale(1.01);
+    color: #fff;
+}
+.price input {
+    width: 21.5%;
+}
+#total {
+    background-color: rgb(216, 6, 6);
+    padding: 5px 2px;
+    border-radius: 5px;
+}
+#total::before {
+    content: 'Total:';
+}
+#btnDelete {
+    margin: 10px 0;
+}
+button {
+    width: 100.6%;
+    height: 30px;
+    background-color: rgb(0 104 120);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+button:hover {
+    background-color: rgb(4 158 183);
+    letter-spacing: 1px;
+}
+/* End Input Section */
+
+/* Start Output Section */
+.searchBtn {
+    display: flex;
+    justify-content: space-between;
+}
+.searchBtn button {
+    width: 45%;
+}
+table {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+table th{
+    text-transform: uppercase;
+}
+table th,table td {
+    padding: 5px;
+}
+/* End Output Section */
